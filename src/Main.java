@@ -8,6 +8,9 @@ public class Main {
     {
         Calculator calculator = new Calculator();
 
+        Company fooCompany = new Company("foo_1");
+        fooCompany.set_companyName("Foo Company");
+
         long revenue = calculator.calculateRevenue(313, 100213);
         long profit  = calculator.calculateProfit(revenue, 1466);
 
